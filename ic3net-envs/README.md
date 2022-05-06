@@ -8,7 +8,7 @@ This repository contains gym environments for tasks used in paper for IC3Net exc
 
 ## Running
 
-Run `python setup.py develop` in the locally cloned repository.
+Run `python3 setup.py install --user ` in the locally cloned repository.
 Next, run `python examples/random_agent.py` for a random agent playing with Traffic Junction environment.
 
 Note that, you can use `--display` flag to see the actual environment being rendered on console. You might not see anything as it is action and execution are very fast in case of a random agent.
