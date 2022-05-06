@@ -27,7 +27,7 @@ First, clone the repo and install ic3net-envs which contains implementation for 
 ```
 git clone https://github.com/IC3Net/IC3Net
 cd IC3Net/ic3net-envs
-python setup.py develop
+python3 setup.py install --user 
 ```
 
 **Optional**: If you want to run experiments on StarCraft, install the `gym-starcraft` package included in this package. Follow the instructions provided in README inside that packages.
